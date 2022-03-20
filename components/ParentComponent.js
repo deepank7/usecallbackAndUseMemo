@@ -12,12 +12,12 @@ export default function ParentComponent() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [dep]
   );
-  const statehanddler = () => {
+  const stateHanddler = () => {
     setState(!state);
   };
   return (
     <>
-      <button onClick={statehanddler}>Change State Of Parent Component</button>
+      <button onClick={stateHanddler}>Change State Of Parent Component</button>
       <MyList handler={handler} />
     </>
   );
